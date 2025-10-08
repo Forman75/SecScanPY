@@ -110,7 +110,7 @@ GUI содержит кнопку **Сделать демо-проект** — �
 # SecScanPY — Lightweight Static Security Scanner for Python Projects 🛡️🔎
 
 **Short description:**
-SecScan is a small standalone tool (GUI + CLI) for quick static security scanning of Python projects and text configs. It detects possible secret leaks (keys, passwords, JWTs, etc.) and risky constructs/calls (e.g., `pickle.loads`, `yaml.load` without `SafeLoader`, `subprocess.run(..., shell=True)`, `requests(..., verify=False)`). Runs with Python standard library only — no third-party dependencies required.
+SecScanPY is a small standalone tool (GUI + CLI) for quick static security scanning of Python projects and text configs. It detects possible secret leaks (keys, passwords, JWTs, etc.) and risky constructs/calls (e.g., `pickle.loads`, `yaml.load` without `SafeLoader`, `subprocess.run(..., shell=True)`, `requests(..., verify=False)`). Runs with Python standard library only — no third-party dependencies required.
 
 ---
 
