@@ -1,11 +1,11 @@
-# SecScan — лёгкий статический анализатор безопасности Python-проектов 🛡️🔎
+# SecScanPY — лёгкий статический анализатор безопасности Python-проектов 🛡️🔎
 
 **Кратко:**
-SecScan — автономный инструмент (GUI + CLI) для быстрого статического анализа Python-проектов и текстовых конфигов. Ищет возможные утечки секретов (ключи, пароли, JWT и т.п.) и рискованные конструкции/вызовы (например, `pickle.loads`, `yaml.load` без `SafeLoader`, `subprocess.run(..., shell=True)`, `requests(..., verify=False)`). Работает без внешних зависимостей — только стандартная библиотека Python.
+SecScanPY — автономный инструмент (GUI + CLI) для быстрого статического анализа Python-проектов и текстовых конфигов. Ищет возможные утечки секретов (ключи, пароли, JWT и т.п.) и рискованные конструкции/вызовы (например, `pickle.loads`, `yaml.load` без `SafeLoader`, `subprocess.run(..., shell=True)`, `requests(..., verify=False)`). Работает без внешних зависимостей — только стандартная библиотека Python.
 
 ---
 
-## 🔥 Что делает SecScan
+## 🔥 Что делает SecScanPY
 
 * Ищет **хардкод-секреты** и токены в `.py`, `.env`, `.json`, `.yml/.yaml`, `.ini`, `.cfg`, `.txt`.
 * Проводит **AST-анализ** Python-файлов (импорты, вызовы функций, аргументы) и находит рискованные вызовы.
@@ -99,7 +99,7 @@ GUI содержит кнопку **Сделать демо-проект** — �
 
 ## ⚠️ Ограничения и предупреждение
 
-* SecScan выполняет **статический анализ** — все находки нужно проверять вручную.
+* SecScanPY выполняет **статический анализ** — все находки нужно проверять вручную.
 * Инструмент предназначен для **образовательных и аудиторских целей**. Не используйте его против чужих систем без разрешения.
 
 
@@ -107,7 +107,7 @@ GUI содержит кнопку **Сделать демо-проект** — �
 ---
 
 
-# SecScan — Lightweight Static Security Scanner for Python Projects 🛡️🔎
+# SecScanPY — Lightweight Static Security Scanner for Python Projects 🛡️🔎
 
 **Short description:**
 SecScan is a small standalone tool (GUI + CLI) for quick static security scanning of Python projects and text configs. It detects possible secret leaks (keys, passwords, JWTs, etc.) and risky constructs/calls (e.g., `pickle.loads`, `yaml.load` without `SafeLoader`, `subprocess.run(..., shell=True)`, `requests(..., verify=False)`). Runs with Python standard library only — no third-party dependencies required.
